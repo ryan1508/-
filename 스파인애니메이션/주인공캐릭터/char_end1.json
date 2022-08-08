@@ -1,0 +1,52 @@
+{ "skeleton": { "images": "D:/옥탑방/-/스파인애니메이션/주인공캐릭터/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "레이어 1", "bone": "root" },
+	{ "name": "weapon", "bone": "root", "attachment": "weapon" },
+	{ "name": "L_hand", "bone": "root", "attachment": "L_hand" },
+	{ "name": "L_hand_back", "bone": "root", "attachment": "L_hand_back" },
+	{ "name": "L_arm", "bone": "root", "attachment": "L_arm" },
+	{ "name": "R_arm", "bone": "root", "attachment": "R_arm" },
+	{ "name": "L_leg", "bone": "root", "attachment": "L_leg" },
+	{ "name": "R_leg", "bone": "root", "attachment": "R_leg" },
+	{ "name": "chest", "bone": "root", "attachment": "chest" },
+	{ "name": "head", "bone": "root", "attachment": "head" }
+],
+"skins": {
+	"default": {
+		"레이어 1": {
+			"레이어 1": { "x": 715, "y": -440, "width": 1252, "height": 402 }
+		},
+		"weapon": {
+			"weapon": { "x": 1140, "y": -290, "width": 162, "height": 342 }
+		},
+		"L_hand": {
+			"L_hand": { "x": 920, "y": -560, "width": 82, "height": 82 }
+		},
+		"L_hand_back": {
+			"L_hand_back": { "x": 830, "y": -560, "width": 42, "height": 82 }
+		},
+		"L_arm": {
+			"L_arm": { "x": 870, "y": -405, "width": 102, "height": 112 }
+		},
+		"R_arm": {
+			"R_arm": { "x": 540, "y": -445, "width": 122, "height": 192 }
+		},
+		"L_leg": {
+			"L_leg": { "x": 745, "y": -565, "width": 72, "height": 112 }
+		},
+		"R_leg": {
+			"R_leg": { "x": 655, "y": -565, "width": 72, "height": 112 }
+		},
+		"chest": {
+			"chest": { "x": 690, "y": -405, "width": 142, "height": 112 }
+		},
+		"head": {
+			"head": { "x": 705, "y": -195, "width": 172, "height": 172 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
