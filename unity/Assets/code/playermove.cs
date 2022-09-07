@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class playermove : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed;
     private Rigidbody characterRigidbody;
     
-    [SerializeField] private SpriteRenderer _spriteRenderer;
 
     void Start()
     {
         characterRigidbody = GetComponent<Rigidbody>();
+        
     }
 
     void Update()
@@ -22,22 +22,13 @@ public class playermove : MonoBehaviour
         Vector3 velocity = new Vector3(inputX, 0, inputZ);
         velocity *= speed;
         characterRigidbody.velocity = velocity;
+
         
-        ChangeFlipX(inputX);
+
     }
 
+    
 
-    void ChangeFlipX(float x)
-    {
-        if (x < 0)//왼쪽
-        {
-            _spriteRenderer.flipX = false;
-        }
-        else if (x > 0)//오른쪽
-        {
-            _spriteRenderer.flipX = true;
-        }
-    }
 }
 
 
