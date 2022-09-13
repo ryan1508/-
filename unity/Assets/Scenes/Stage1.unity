@@ -645,9 +645,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   unitPool:
-    array:
-    - Key: Player
-      Value: {fileID: 87121750050951095, guid: 18bba852f5671eb469e225d18def9348, type: 3}
+    m_pairs:
+    - m_key: 0
+      m_value: {fileID: 87121750050951095, guid: 18bba852f5671eb469e225d18def9348, type: 3}
   trChild: {fileID: 1926324580}
 --- !u!4 &1926324580
 Transform:
