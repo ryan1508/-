@@ -1,24 +1,30 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Spine.Unity;
 using UnityEngine;
 
 namespace Project
 {
     public abstract class BaseUnit : MonoBehaviour
     {
-        [SerializeField] protected float Speed;
-
         [SerializeField] protected Rigidbody rigidbody;
+        
+        [SerializeField] protected SkeletonMecanim mecanim;
         protected bool IsInitalize { get; set; }
         protected abstract void UnitUpdate();
 
         protected IUnitState curUnitState;
 
         protected Dictionary<PlayerState,IUnitState> unitStates;
+
+        protected Dircetion dircetion;
         
         public Animator animator;
-
+        public Rigidbody Rigidbody => rigidbody;
+        
+        public float Speed;
+        
         public virtual UnitType BaseUnitType { get; set; }
         //public Dictionary<PlayerState,IUnitState> UnitStates => unitStates;
         public bool isMoveing { get; set; }
@@ -46,7 +52,7 @@ namespace Project
         {
             if (BaseUnitType == UnitType.Player)
             {
-                GetIUnitState(state.State);
+                //GetIUnitState(state.State);
             }
             else
             {
@@ -71,6 +77,12 @@ public enum PlayerState
 public enum BossState
 {
             
+}
+
+public enum Dircetion
+{
+    Left,
+    Right,
 }
 
 public enum UnitType

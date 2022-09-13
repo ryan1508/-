@@ -12,8 +12,10 @@ public class AttackState : IUnitState
 
     public void Execute(BaseUnit unit)
     {
-        //unit.ChangeState(this);
-        //unit.animator.SetBool("walk", false);
+        if (unit.BaseUnitType == UnitType.Player)
+        {
+            unit.animator.SetBool("Attack", true);
+        }
     }
 
     public IUnitState GetState()

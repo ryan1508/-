@@ -14,11 +14,15 @@ public class WalkState : IUnitState
     {
         if (unit.BaseUnitType == UnitType.Player)
         {
+            var player = (Player) unit;
+            Vector3 velocity = new Vector3(player.inPutX, 0, player.inPutZ);
+            velocity *= unit.Speed;
+            unit.Rigidbody.velocity = velocity;
+
             unit.animator.SetBool("Walk", true);
-            //unit.ChangeState(this);
         }
     }
-
+    
     public IUnitState GetState()
     {
         return this;
