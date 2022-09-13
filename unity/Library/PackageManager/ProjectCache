@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637984176205084322
-    m_Hash: 3284899966
+      ticks: 637986753835665514
+    m_Hash: 1540819343
   m_LockFileStatus:
     m_FilePath: C:/Users/hope/Desktop/uu/-/unity/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637984176205175303
-    m_Hash: 2050894897
+      ticks: 637986753835698045
+    m_Hash: 3669041194
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -22,67 +22,6 @@ m_LocalPackages:
 m_ProjectPath: C:/Users/hope/Desktop/uu/-/unity/Packages
 m_EditorVersion: 2021.3.8f1 (b30333d56e81)
 m_ResolvedPackages:
-- packageId: com.beetlecircus.serializabledictionary@0.1.2-preview.4
-  testable: 0
-  isDirectDependency: 1
-  version: 0.1.2-preview.4
-  source: 1
-  resolvedPath: C:\Users\hope\Desktop\uu\-\unity\Library\PackageCache\com.beetlecircus.serializabledictionary@0.1.2-preview.4
-  assetPath: Packages/com.beetlecircus.serializabledictionary
-  name: com.beetlecircus.serializabledictionary
-  displayName: SerializableDictionary
-  author:
-    name: Fredrik Ludvigsen
-    email: post@fredrik.ludvigsen.name
-    url: 
-  category: 
-  type: 
-  description: Dictionary framework developed by BeetleCircus
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.1.0
-    - 0.1.1
-    - 0.1.2-preview.1
-    - 0.1.2-preview.2
-    - 0.1.2-preview.3
-    - 0.1.2-preview.4
-    compatible:
-    - 0.1.0
-    - 0.1.1
-    - 0.1.2-preview.1
-    - 0.1.2-preview.2
-    - 0.1.2-preview.3
-    - 0.1.2-preview.4
-    verified: 
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - collections
-  - serializable
-  - dictionary
-  registry:
-    id: scoped:Rain Office
-    name: Rain Office
-    url: https://office.rain-games.com:4873
-    scopes:
-    - com.beetlecircus
-    isDefault: 0
-    capabilities: 0
-  hideInEditor: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637575488801640000
-  documentationUrl: 
-  hasRepository: 0
-  repository:
-    type: 
-    url: 
-    revision: 
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
 - packageId: com.unity.cinemachine@2.8.9
   testable: 0
   isDirectDependency: 1
