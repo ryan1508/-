@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviourSingleton<GameManager>
     }
     public void GameStart()
     {
-        UnitManager.Instance.SpawnPlayer();
+        UnitManager.Instance.LoadPlayer();
     }
     
 }

@@ -7,11 +7,11 @@ using UnityEngine;
 
 public class UnitManager : MonoBehaviourSingleton<UnitManager>
 {
-    [SerializeField] private SerializableDictionary<string, GameObject> unitPool;
+    [SerializeField] private SerializableDictionary<UnitType, GameObject> unitPool;
     [SerializeField] private Transform trChild;
-    public void SpawnPlayer()
+    public void LoadPlayer()
     {
-        var gm =Instantiate(unitPool["Player"]);
+        var gm =Instantiate(unitPool[UnitType.Player]);
         gm.transform.SetParent(trChild);
         
         var player = gm.GetComponent<BaseUnit>();
