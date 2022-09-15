@@ -1,0 +1,60 @@
+{ "skeleton": { "images": "D:/옥탑방/-/스파인애니메이션/보스몬스터/1스테이지/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "L_arm_a", "bone": "root", "attachment": "L_arm_a" },
+	{ "name": "L_arm_b", "bone": "root", "attachment": "L_arm_b" },
+	{ "name": "L_lag_b", "bone": "root", "attachment": "L_lag_b" },
+	{ "name": "L_lag_a", "bone": "root", "attachment": "L_lag_a" },
+	{ "name": "L_foot", "bone": "root", "attachment": "L_foot" },
+	{ "name": "R_lag_b", "bone": "root", "attachment": "R_lag_b" },
+	{ "name": "R_lag_a", "bone": "root", "attachment": "R_lag_a" },
+	{ "name": "R_foot", "bone": "root", "attachment": "R_foot" },
+	{ "name": "R_arm_a", "bone": "root", "attachment": "R_arm_a" },
+	{ "name": "R_arm_b", "bone": "root", "attachment": "R_arm_b" },
+	{ "name": "head", "bone": "root", "attachment": "head" }
+],
+"skins": {
+	"default": {
+		"body": {
+			"body": { "x": 1140, "y": -215, "width": 332, "height": 342 }
+		},
+		"L_arm_a": {
+			"L_arm_a": { "x": 1323.5, "y": -227.5, "width": 77, "height": 167 }
+		},
+		"L_arm_b": {
+			"L_arm_b": { "x": 1343, "y": -365, "width": 162, "height": 292 }
+		},
+		"L_lag_b": {
+			"L_lag_b": { "x": 1211, "y": -462.5, "width": 72, "height": 87 }
+		},
+		"L_lag_a": {
+			"L_lag_a": { "x": 1203, "y": -395, "width": 102, "height": 102 }
+		},
+		"L_foot": {
+			"L_foot": { "x": 1223.5, "y": -497, "width": 87, "height": 42 }
+		},
+		"R_lag_b": {
+			"R_lag_b": { "x": 1082.5, "y": -462.5, "width": 77, "height": 87 }
+		},
+		"R_lag_a": {
+			"R_lag_a": { "x": 1095, "y": -395, "width": 92, "height": 102 }
+		},
+		"R_foot": {
+			"R_foot": { "x": 1085, "y": -494, "width": 82, "height": 42 }
+		},
+		"R_arm_a": {
+			"R_arm_a": { "x": 942.5, "y": -240, "width": 177, "height": 212 }
+		},
+		"R_arm_b": {
+			"R_arm_b": { "x": 924, "y": -395, "width": 172, "height": 262 }
+		},
+		"head": {
+			"head": { "x": 1169, "y": -190, "width": 112, "height": 112 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
