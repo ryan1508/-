@@ -19,7 +19,7 @@ public class Player : BaseUnit
         unitStates.Add(PlayerState.IDLE,new IdleState());
         unitStates.Add(PlayerState.ATTAK1,new AttackState());
         unitStates.Add(PlayerState.RUN,new RunState());
-        unitStates.Add(PlayerState.WALK,new WalkState());
+        unitStates.Add(PlayerState.WALK,new IWalkState());
         
         curUnitState = unitStates[PlayerState.IDLE];
     }

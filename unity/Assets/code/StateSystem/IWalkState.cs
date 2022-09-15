@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Project;
 using UnityEngine;
 
-public class WalkState : IUnitState
+public class IWalkState : IUnitState
 {
     public void Stop(BaseUnit unit)
     {
