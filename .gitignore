@@ -36,19 +36,7 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-unity/Library/ArtifactDB
-unity/Library/Search/transactions.db
-unity/Library/SourceAssetDB
-unity/Logs/AssetImportWorker0.log
-unity/Logs/AssetImportWorker2.log
-unity/Logs/shadercompiler-AssetImportWorker0.log
-unity/Logs/shadercompiler-UnityShaderCompiler.exe0.log
-unity/Library/ArtifactDB
-unity/Library/Search/transactions.db
-unity/Library/SourceAssetDB
-unity/Logs/AssetImportWorker0.log
-unity/Logs/shadercompiler-AssetImportWorker0.log
-unity/Logs/shadercompiler-UnityShaderCompiler.exe0.log
+
 *.db
 *.log
-*.log
+*.dll
