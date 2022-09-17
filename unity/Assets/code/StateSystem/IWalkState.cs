@@ -16,7 +16,7 @@ public class IWalkState : IUnitState
         {
             var player = (Player) unit;
             Vector3 velocity = new Vector3(player.inPutX, 0, player.inPutZ);
-            velocity *= unit.Speed;
+            velocity *= player.playerData.Speed;
             unit.Rigidbody.velocity = velocity;
 
             unit.animator.SetBool("Walk", true);

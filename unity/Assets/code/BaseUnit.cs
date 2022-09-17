@@ -23,7 +23,7 @@ namespace Project
         public Animator animator;
         public Rigidbody Rigidbody => rigidbody;
         
-        public float Speed;
+        //public float Speed;
         
         public virtual UnitType BaseUnitType { get; set; }
         //public Dictionary<PlayerState,IUnitState> UnitStates => unitStates;
@@ -68,10 +68,15 @@ public enum PlayerState
 {
     IDLE,
     WALK,
-    ATTAK1,
-    ATTAK2,
-    ATTAK3,
+    ATTAK,
     RUN,
+}
+
+public enum PlayerAttackType
+{
+    Attack1,
+    Attack2,
+    Attack3,
 }
 
 public enum BossState
