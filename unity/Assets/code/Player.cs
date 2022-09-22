@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Project;
 using SKUnityToolkit.SerializableDictionary;
+using Spine.Unity.Examples;
 using UnityEngine;
 
 public class Player : BaseUnit
@@ -11,10 +13,16 @@ public class Player : BaseUnit
     public float inPutZ { get; set; }
     //공격 중인 상태 
     public bool IsAttack { get; set; }
+
+    public float DashSpeed { get; set; }
+    
     public PlayerData playerData => DataManager.Instance.playerData;
     
     [SerializeField] private SerializableDictionary<PlayerAttackType, BoxCollider> attackBoxColl;
-    
+
+    [SerializeField] private SkeletonGhost skeletonGhost;
+   // [SerializeField]
+   // private GameObject afterImage;
     public override void Init()
     {
         base.Init();
@@ -26,6 +34,9 @@ public class Player : BaseUnit
         unitStates.Add(PlayerState.WALK,new IWalkState());
         
         curUnitState = unitStates[PlayerState.IDLE];
+
+        DashSpeed = 1;
+        skeletonGhost.ghostingEnabled = false;
     }
 
     protected override void UnitUpdate()
@@ -37,11 +48,26 @@ public class Player : BaseUnit
         {
             ChangeState(PlayerState.ATTAK);
         }
+
+        if (Input.GetKeyDown(KeyCode.LeftControl))
+        {
+            StartCoroutine(PlayDash());
+        }
         
-        
+
         curUnitState.Execute(this);
     }
-    
+
+    private IEnumerator PlayDash()
+    {
+        DashSpeed = 3;
+        animator.SetTrigger("Dash");
+        skeletonGhost.ghostingEnabled  = true;
+        yield return new WaitForSeconds(0.3f);
+        skeletonGhost.ghostingEnabled = false;
+        DashSpeed = 1;
+    }
+
     private void UpdateHorizonAndVerticalInput()
     {
         inPutX = Input.GetAxisRaw("Horizontal");
@@ -62,6 +88,7 @@ public class Player : BaseUnit
     {
         var x = inPutX > 0 ? 1 : -1;
         mecanim.Skeleton.ScaleX = x;
+
     }
     private void ChangeState(PlayerState playerState)
     {

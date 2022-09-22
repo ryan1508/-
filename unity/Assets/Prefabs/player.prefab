@@ -125,7 +125,6 @@ MonoBehaviour:
   rigidbody: {fileID: 87121750050951101}
   mecanim: {fileID: 6917320385498218674}
   animator: {fileID: 3553915529653772979}
-  Speed: 5
   attackBoxColl:
     m_pairs:
     - m_key: 0
@@ -134,6 +133,7 @@ MonoBehaviour:
       m_value: {fileID: 1154224707745824427}
     - m_key: 2
       m_value: {fileID: 4620264895993589438}
+  skeletonGhost: {fileID: 1877636543055395048}
 --- !u!1 &1311416673007483998
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,6 +147,7 @@ GameObject:
   - component: {fileID: 6213106413910302366}
   - component: {fileID: 3553915529653772979}
   - component: {fileID: 6917320385498218674}
+  - component: {fileID: 1877636543055395048}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Untagged
@@ -280,6 +281,30 @@ MonoBehaviour:
     layerMixModes: 01000000
     layerBlendModes: 01000000
   updateTiming: 1
+--- !u!114 &1877636543055395048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311416673007483998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02f2fa991881c6d419500ccc40ad443f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ghostingEnabled: 1
+  spawnInterval: 0.05
+  maximumGhosts: 5
+  fadeSpeed: 5
+  ghostShader: {fileID: 4800000, guid: 3873d4699ee8a4b4da8fa6b8c229b94d, type: 3}
+  color:
+    serializedVersion: 2
+    rgba: 3372220415
+  additive: 1
+  textureFade: 0
+  sortWithDistanceOnly: 0
+  zOffset: 0
 --- !u!1 &1700662441736159976
 GameObject:
   m_ObjectHideFlags: 0
