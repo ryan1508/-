@@ -791,11 +791,17 @@
      <Reference Include="Unity.2D.IK.Runtime">
      <HintPath>C:\Users\hope\Desktop\uu\-\unity\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
      </Reference>
+     <Reference Include="Cinemachine">
+     <HintPath>C:\Users\hope\Desktop\uu\-\unity\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Services.Core.Analytics">
      <HintPath>C:\Users\hope\Desktop\uu\-\unity\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>C:\Users\hope\Desktop\uu\-\unity\Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="com.unity.cinemachine.editor">
+     <HintPath>C:\Users\hope\Desktop\uu\-\unity\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Services.Core.Environments">
      <HintPath>C:\Users\hope\Desktop\uu\-\unity\Library\ScriptAssemblies\Unity.Services.Core.Environments.dll</HintPath>

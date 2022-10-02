@@ -15,7 +15,7 @@ C:/Users/hope/Desktop/uu/-/unity
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-10148
+13893
 Successfully changed project path to: C:/Users/hope/Desktop/uu/-/unity
 C:/Users/hope/Desktop/uu/-/unity
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/hope/Desktop/uu/-/unity
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 42.48 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 60.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path E:/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -63,82 +63,82 @@ Initialize mono
 Mono path[0] = 'E:/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'E:/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56368
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: E:/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: E:/2021.3.8f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: E:/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002835 seconds.
+Registered in 0.002808 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 [usbmuxd] Send listen message
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 39.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.97 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.477 seconds
+- Completed reload, in  0.614 seconds
 Domain Reload Profiling:
-	ReloadAssembly (478ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (615ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (342ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
+			SetupTypeCache (106ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (23ms)
-			SetupLoadedEditorAssemblies (202ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (46ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
+				RefreshPlugins (44ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (76ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007004 seconds.
+Registered in 0.007415 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 39.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 51.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
+- Completed reload, in  1.105 seconds
 Domain Reload Profiling:
-	ReloadAssembly (938ms)
-		BeginReloadAssembly (196ms)
+	ReloadAssembly (1106ms)
+		BeginReloadAssembly (223ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (121ms)
-		EndReloadAssembly (655ms)
-			LoadAssemblies (77ms)
+			CreateAndSetChildDomain (135ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (154ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (328ms)
+			SetupTypeCache (181ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
+				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (39ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (169ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
+				RefreshPlugins (52ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (184ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -147,13 +147,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Failed to load shader (instanceID 408, GUID e4e5d566a8aa9914c906555a6857fcb9)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2791 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (1.4 MB). Loaded Objects now: 3264.
-Memory consumption went from 143.6 MB to 142.2 MB.
-Total: 3.753900 ms (FindLiveObjects: 0.223000 ms CreateObjectMapping: 0.108700 ms MarkObjects: 2.743700 ms  DeleteObjects: 0.677800 ms)
+Unloading 2792 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (1.4 MB). Loaded Objects now: 3265.
+Memory consumption went from 143.7 MB to 142.3 MB.
+Total: 4.908500 ms (FindLiveObjects: 0.219100 ms CreateObjectMapping: 0.107400 ms MarkObjects: 3.687400 ms  DeleteObjects: 0.893800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -167,89 +167,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19137.957987 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/ArrowIndicator.prefab
-  artifactKey: Guid(aed84c40eacf3df438b76fd7b9208a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/ArrowIndicator.prefab using Guid(aed84c40eacf3df438b76fd7b9208a38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f6dbda221e2b16a77f7ca798e8aea0') in 0.097795 seconds 
+  Time since last request: 36852.948566 seconds.
+  path: Assets/spine_ani/boss_1_stage/boss_SkeletonData.asset
+  artifactKey: Guid(45fc624ea843d58458ba04448924ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine_ani/boss_1_stage/boss_SkeletonData.asset using Guid(45fc624ea843d58458ba04448924ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9562faef65713c3ec2bb5698fc1237df') in 0.266757 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.214000 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Textures/WarningArrow.png
-  artifactKey: Guid(e5662c81b968c904697b1a4f0c5a08e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Textures/WarningArrow.png using Guid(e5662c81b968c904697b1a4f0c5a08e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62460f087ee3c0d3da8b2202fb223ecc') in 0.016748 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.811110 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Textures/WarningCircle.png
-  artifactKey: Guid(136b4062fdcf69045a17666fb50b720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Textures/WarningCircle.png using Guid(136b4062fdcf69045a17666fb50b720b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f74e7f6b8ae049385b20ac404d432071') in 0.018222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.563839 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab
-  artifactKey: Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab using Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4de37589f4da4ef9daf56d74e77c04') in 0.007444 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.094209 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab
-  artifactKey: Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab using Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c0f80f9f5a4cce7ec2ff7ea4adf4033') in 0.007777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.883998 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab
-  artifactKey: Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab using Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e17fdda3bb66b5f21ac3b37e2cf83d') in 0.007406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.550450 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab
-  artifactKey: Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Prefabs/CircleIndicator.prefab using Guid(ed012faeeab108a4b95c3665e172378c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5801ba255e3beae2a3bee427d1d1fa3c') in 0.007476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.977569 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Meshes/m_floor.FBX
-  artifactKey: Guid(93885f00cc6164e4bb4a07b3ae0346c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Meshes/m_floor.FBX using Guid(93885f00cc6164e4bb4a07b3ae0346c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d86340df64327a3e8c61f90a95d89b') in 0.030098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.298157 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Materials/ArrowIndicator 1.mat
-  artifactKey: Guid(8316ac801dfce0a468a786c097ef5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Materials/ArrowIndicator 1.mat using Guid(8316ac801dfce0a468a786c097ef5933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e7611904b6f45f8a11cb737cdf8531') in 0.025165 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 3.mat
-  artifactKey: Guid(9503ca28640ee6f459c676d095df7ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 3.mat using Guid(9503ca28640ee6f459c676d095df7ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f3dc58e645b1e7c561245da7242c29') in 0.072361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 2.mat
-  artifactKey: Guid(d7320504ab3a18f45ac1a6b4139e5198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 2.mat using Guid(d7320504ab3a18f45ac1a6b4139e5198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6da0c0ef9a1419dca8e79c897f2cdd9') in 0.035184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 5.mat
-  artifactKey: Guid(6d62715bf23868b4e97269c8289cec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 5.mat using Guid(6d62715bf23868b4e97269c8289cec05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4000844ca6e98a9fb58a59c8f68b95') in 0.044410 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator.mat
-  artifactKey: Guid(5dd475ebbf1a6ed479b52806d5134019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator.mat using Guid(5dd475ebbf1a6ed479b52806d5134019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fcfc3ee353c064b14b36a4c73300dc0') in 0.040884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 4.mat
-  artifactKey: Guid(0e48254158a89104b8cd19cce7d78af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/taecgLibrary/SkillIndicator/Examples/Materials/CircleIndicator 4.mat using Guid(0e48254158a89104b8cd19cce7d78af5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263832d891f7fae52f0fceca3333b407') in 0.013526 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 73.335117 seconds.
+  path: Assets/spine_ani/boss_1_stage/boss_SkeletonData.asset
+  artifactKey: Guid(45fc624ea843d58458ba04448924ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/spine_ani/boss_1_stage/boss_SkeletonData.asset using Guid(45fc624ea843d58458ba04448924ecb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5255a8a18dc0f48314762e991b02b558') in 0.105791 seconds 
