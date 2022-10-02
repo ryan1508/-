@@ -5,7 +5,7 @@ using Project;
 using SKUnityToolkit.SerializableDictionary;
 using Spine.Unity.Examples;
 using UnityEngine;
-
+using  Data.PlayerData;
 public class Player : BaseUnit
 {
     public override UnitType BaseUnitType => UnitType.Player;
