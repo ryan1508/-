@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
+    x: -2560
     y: 43
     width: 2560
     height: 1357
@@ -75,7 +75,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 41
+  controlID: 146
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,7 +152,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 165
+  controlID: 161
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -396,7 +396,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1420
+    x: -1140
     y: 73
     width: 134
     height: 1286
@@ -407,9 +407,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: ac8f0000
       m_LastClickedID: 0
-      m_ExpandedIDs: acc7ffff
+      m_ExpandedIDs: aec7ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -453,7 +453,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 2279
+    x: -281
     y: 73
     width: 280
     height: 1286
@@ -494,7 +494,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1556
+    x: -1004
     y: 73
     width: 721
     height: 1286
@@ -515,22 +515,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Stage1
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Stage1
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\hope\Desktop\uu\-\unity
+  m_LastProjectPath: "D:\\\uC625\uD0D1\uBC29\\-\\unity"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a48f0000
-    m_LastClickedID: 36772
-    m_ExpandedIDs: 00000000a48f0000a68f0000a88f0000aa8f000000ca9a3bffffff7f
+    m_SelectedIDs: ac8f0000
+    m_LastClickedID: 36780
+    m_ExpandedIDs: 00000000888f0000948f0000968f0000ac8f0000ae8f0000ec8f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -558,7 +558,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a48f0000a68f0000a88f0000aa8f0000
+    m_ExpandedIDs: 00000000888f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -585,7 +585,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: a2f9ffff9024000000000000e0b7fdff
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -634,7 +634,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -2560
     y: 613
     width: 1419
     height: 746
@@ -726,7 +726,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
+    x: -2560
     y: 73
     width: 1419
     height: 519
@@ -953,9 +953,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.0019402504, y: 3.2802324, z: 0.9267411}
+    m_Target: {x: -2.413272, y: -0.052832603, z: 0.26834297}
     speed: 2
-    m_Value: {x: 0.0019402504, y: 3.2802324, z: 0.9267411}
+    m_Value: {x: -2.413272, y: -0.052832603, z: 0.26834297}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1002,13 +1002,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.41485742, y: -0.016946636, z: 0.007811952, w: -0.90984124}
+    m_Target: {x: -0.24519637, y: -0.025897508, z: 0.0065540713, w: -0.96911603}
     speed: 2
-    m_Value: {x: -0.41485745, y: -0.016946636, z: 0.0078119524, w: -0.90984124}
+    m_Value: {x: -0.24520338, y: -0.024443552, z: 0.0061862054, w: -0.96914375}
   m_Size:
-    m_Target: 3.9491549
+    m_Target: 10
     speed: 2
-    m_Value: 3.9491549
+    m_Value: 10
   m_Ortho:
     m_Target: 0
     speed: 2
